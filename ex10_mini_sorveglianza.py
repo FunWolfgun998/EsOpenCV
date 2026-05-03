@@ -40,8 +40,7 @@ while True:
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 3)
 
     cv2.imshow('Sorveglianza', frame)
-    # Togli il commento qui sotto per vedere "dietro le quinte" cosa vede il computer!
-    # cv2.imshow('Differenza (Dietro le quinte)', soglia) 
+    qcv2.imshow('Differenza (Dietro le quinte)', soglia)
 
     # Aggiorniamo il frame precedente
     frame_prec = grigio
